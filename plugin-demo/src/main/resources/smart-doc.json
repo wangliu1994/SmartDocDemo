@@ -1,3 +1,13 @@
 {
-  "outPath": "doc" //指定文档的输出路径
+  //指定文档的输出路径,必须
+  "outPath": "doc",
+
+  //设置服务器地址,非必须
+  "serverUrl": "http://{{server}}",
+
+  //是否将文档合并到一个文件中，一般推荐为true
+  "allInOne": true,
+
+  //配置自己的项目名称
+  "projectName": "Test"
 }
